@@ -1,0 +1,15 @@
+header .container {
+    width: 1104px;
+    height: 30px;
+}
+header .logo {
+    width: 168px;
+}
+
+header ul {
+    width: 234;
+}
+
+header ul li {
+    font-size: 12px;
+}
