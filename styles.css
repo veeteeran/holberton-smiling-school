@@ -9,6 +9,7 @@
 
 :root {
     --color-purple: #C271FF;
+    --color-gray: #D8D8D8;
 
     --font-size-medium: 18px;
 }
@@ -59,6 +60,10 @@ header ul li {
     color: var(--color-purple);
 }
 
+.gray-text {
+    color: var(--color-gray);
+}
+
 .section-hero .section-inner {
     width: 767px;
     justify-content: center;
@@ -88,6 +93,11 @@ header ul li {
     font-size: 64px;
 }
 
-.tutorials {
+.tutorials-h,
+.tutorials-p {
     color: black;
+}
+
+.tutorials-p {
+    font-size: 14px;
 }
