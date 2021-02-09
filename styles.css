@@ -94,10 +94,40 @@ header ul li {
 }
 
 .tutorials-h,
-.tutorials-p {
+.tutorials-p,
+.tutorials-arrow {
     color: black;
 }
 
 .tutorials-p {
     font-size: 14px;
+}
+
+[class^="tutorial-bg-"] {
+    width: 100%;
+    height: 9.6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+[class^="tutorial-"] img{
+  width: 4rem;
+  height: 4rem;
+}
+
+.tutorial-bg-4 {
+    background-image: url(images/thumbnail_4.jpg);
+}
+
+.tutorial-bg-3 {
+    background-image: url(images/thumbnail_3.jpg);
+}
+
+.tutorial-bg-2 {
+    background-image: url(images/thumbnail_2.jpg);
+}
+
+.tutorial-bg-1 {
+    background-image: url(images/thumbnail_1.jpg);
 }
