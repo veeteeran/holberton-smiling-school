@@ -55,6 +55,10 @@ header ul li {
     height: 44px;
 }
 
+.purple-text {
+    color: var(--color-purple);
+}
+
 .section-hero .section-inner {
     width: 767px;
     justify-content: center;
@@ -67,4 +71,23 @@ header ul li {
 
 .learn {
     color: var(--color-purple);
+}
+
+.carousel-of-quotes {
+    background-color: var(--color-purple);
+    /* height: 392px; */
+}
+
+.carousel-of-quotes p {
+    font-size: 22px;
+}
+
+/* arrow */
+.holberton_school-icon-arrow_3,
+.holberton_school-icon-arrow_4 {
+    font-size: 64px;
+}
+
+.tutorials {
+    color: black;
 }
