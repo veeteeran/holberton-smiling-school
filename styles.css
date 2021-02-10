@@ -182,6 +182,6 @@ header ul li {
     border-bottom: none;
 }
 
-.custom-width {
-    width: 311px;
+.faq-size {
+    font-size: 60px;
 }
