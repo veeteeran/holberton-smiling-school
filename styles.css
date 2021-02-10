@@ -12,7 +12,7 @@
     --color-gray: #D8D8D8;
     --color-black: #071629;
 
-
+    --font-family-pricing: 'Coiny';
     --font-size-medium: 18px;
 }
 
@@ -27,12 +27,21 @@ body {
     font-family: 'Source Sans Pro';
 }
 
-.hero-image {
+.hero-image,
+.pricing-hero-image{
     background-image: url(images/pic_1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 1093px; */
+}
+
+.hero-image {
+    background-image: url(images/pic_1.jpg);
+}
+
+.pricing-hero-image {
+    background-image: url(images/pic_2.jpg);
 }
 
 header .container {
@@ -74,6 +83,10 @@ header ul li {
 
 .get-schooled {
     font-size: 120px;
+}
+
+.coiny {
+    font-family: var(--font-family-pricing);
 }
 
 .learn {
@@ -145,10 +158,19 @@ header ul li {
 
 .holberton_school-icon-ic_facebook,
 .holberton_school-icon-ic_twitter,
-.holberton_school-icon-ic_instagram {
+.holberton_school-icon-ic_instagram,
+.holberton_school-icon-check {
     font-size: 30px;
 }
 
 .social {
     width: 130px;
+}
+
+.tagline {
+    font-size: 60px;;
+}
+
+.holberton_school-icon-check {
+    color: greenyellow;
 }
