@@ -134,6 +134,21 @@ header ul li {
     background-image: url(images/thumbnail_1.jpg);
 }
 
-.membership-bg {
+.membership-bg,
+.footer-bg {
     background-color: var(--color-black);
+}
+
+.copyright {
+    opacity: .35;
+}
+
+.holberton_school-icon-ic_facebook,
+.holberton_school-icon-ic_twitter,
+.holberton_school-icon-ic_instagram {
+    font-size: 30px;
+}
+
+.social {
+    width: 130px;
 }
