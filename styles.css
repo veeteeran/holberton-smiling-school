@@ -193,3 +193,38 @@ header ul li {
 .courses-quote {
     font-size: 32px;
 }
+
+.search-filters {
+    background-color: var(--color-purple);
+    /* height: 392px; */
+}
+
+.form-opacity {
+    opacity: .25;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: white;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: white;
+  }
+
+  .bootstrap-select.btn-group .btn .filter-option {
+    text-align: right;
+    }
+
+.white-bg {
+    background-color: white;
+    opacity: .25;
+}
+
+.holberton_school-icon-search_1 {
+    font-size: 24px;
+}
