@@ -38,6 +38,10 @@ body {
     background-image: url(images/pic_2.jpg);
 }
 
+.courses-hero-image {
+    background-image: url(images/pic_3.jpg);
+}
+
 header .container {
     width: 1104px;
     height: 30px;
@@ -184,4 +188,8 @@ header ul li {
 
 .faq-size {
     font-size: 60px;
+}
+
+.courses-quote {
+    font-size: 32px;
 }
