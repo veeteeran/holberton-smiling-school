@@ -10,6 +10,8 @@
 :root {
     --color-purple: #C271FF;
     --color-gray: #D8D8D8;
+    --color-black: #071629;
+
 
     --font-size-medium: 18px;
 }
@@ -130,4 +132,8 @@ header ul li {
 
 .tutorial-bg-1 {
     background-image: url(images/thumbnail_1.jpg);
+}
+
+.membership-bg {
+    background-color: var(--color-black);
 }
