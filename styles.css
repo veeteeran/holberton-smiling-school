@@ -169,12 +169,16 @@ header ul li {
     font-size: 60px;
 }
 
+.placceholder {
+    width: 240px;
+}
+
 .price {
     font-size: 44px;
 }
 
 .price-per-month {
-    opacity: .5;;
+    opacity: .5;
 }
 
 .holberton_school-icon-check {
