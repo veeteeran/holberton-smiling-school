@@ -27,24 +27,28 @@
                 <!-- Navigation -->
                 <nav class="navbar navbar-expand-sm mt-4 p-0">
                     <div class="container">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hiddenNavItems" aria-controls="hiddenNavItems" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="holberton_school-icon-menu d-sm-none text-white"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            <img class="mr-2" src="images/smile_off.png" alt="smiley-face" width="36px" height="31px">
-                            <img src="images/logo.png" alt="smile-school-logo" width="112px" height="auto">
-                            <!-- Hidden nav -->
-                            <ul class="list-unstyled text-white font-weight-bold collapse" id="hiddenNavItems">
-                                <li class="nav-item">COURSES</li>
-                                <li class="nav-item">PRICING</li>
-                                <li class="nav-item">LOGIN</li>
+                        <div class="d-flex w-100 justify-content-between align-items-center">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hiddenNavItems" aria-controls="hiddenNavItems" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="holberton_school-icon-menu d-sm-none text-white"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <div class="d-flex flex-sm-row flex-column align-items-center">
+                                    <img class="mr-3 mb-2" src="images/smile_off.png" alt="smiley-face" width="36px" height="31px">
+                                    <img src="images/logo.png" alt="smile-school-logo" width="112px" height="auto">
+                                </div>
+                                <!-- Hidden nav -->
+                                <ul class="list-unstyled text-white font-weight-bold collapse" id="hiddenNavItems">
+                                    <li class="nav-item">COURSES</li>
+                                    <li class="nav-item">PRICING</li>
+                                    <li class="nav-item">LOGIN</li>
+                                </ul>
+                            </a>
+                            <ul class="navbar-nav text-white font-weight-bold">
+                                <li class="nav-item mr-5 d-none d-sm-none d-sm-block">COURSES</li>
+                                <li class="nav-item mr-5 d-none d-sm-none d-sm-block">PRICING</li>
+                                <li class="nav-item d-none d-sm-none d-sm-block">LOGIN</li>
                             </ul>
-                        </a>
-                        <ul class="navbar-nav text-white font-weight-bold">
-                            <li class="nav-item mr-5 d-none d-sm-none d-sm-block">COURSES</li>
-                            <li class="nav-item mr-5 d-none d-sm-none d-sm-block">PRICING</li>
-                            <li class="nav-item d-none d-sm-none d-sm-block">LOGIN</li>
-                        </ul>
+                        </div>
                     </div>
                 </nav>
             </header>        
